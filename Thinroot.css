@@ -1,0 +1,153 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container
+{
+    height: 100vh;
+    background: url(./vh2.jpg) center;
+    background-size: cover;
+    animation: change 3s ;
+}
+@keyframes change {
+    10%{background: url() center;background-size: cover;}
+    30%{background: url() center;background-size: cover;}
+    60%{background: url() center;background-size: cover;}
+    90%{background: url() center;background-size: cover;}
+    
+}
+
+ol
+{
+    display: flex;
+    margin: 0px;
+    padding: 30px;
+    list-style-type: none;
+}
+ol li a
+{
+    font-family: 'Roboto',sans-serif;
+    font-size: 1rem;
+    text-transform: capitalize;
+    color:white;
+    text-decoration: none;
+    
+}
+li
+{
+    font-size: x-small;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgba(234, 235, 235, 0.349);
+    
+}
+#upper
+{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-family: 'Roboto',sans-serif;
+    font-weight: lighter;
+    color: white;
+}
+.right
+{
+    margin-right: 40px;
+    position: relative;
+    left: 55%;
+    
+    
+
+}
+a
+{
+    font-size: 10px;
+    
+}
+.right:hover
+{
+    
+    
+}
+.right
+{
+    padding: 0px 0px;
+}
+#size
+{
+    font-size: 1.9rem;
+    
+    
+}
+#trans 
+{
+    font-size: larger;
+    transition: transform 1s 0s;
+}
+#trans:hover
+{
+    transform: translateX(30px) translateX(-30px)  rotate(180deg) ;
+}
+#container2
+{
+    height: 75vh;
+    background-color: rgba(128, 128, 128, 0.082);
+}
+#ui2
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    position: absolute;
+    left: 120px;
+    bottom: -280px;
+
+}
+#hr
+{
+    position: relative;
+    top: 310px;
+    margin: 0px 120px;
+    border-color: rgba(128, 128, 128, 0.11);
+}
+#project
+{
+    position: relative;
+    left: 9%;
+    top:68.5%;
+    font-family: Arial, sans-serif;
+    color: rgba(0, 0, 0, 0.781);
+}
+#container3
+{
+    height: 140vh;    
+    text-align: center;
+}
+h2
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2.7rem;
+    position: relative;
+    top: 13% ;
+}
+.img
+{
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+    left: 1%;
+}
+#down,#down1
+{
+    position: relative;
+    top: 7.7%;
+}
+#trans1,#trans2,#trans3
+{
+    font-size: larger;
+    transition: transform 1s 0s;
+}
+#trans1:hover,#trans2:hover,#trans3:hover
+{
+    transform: translateX(30px) translateX(-30px)  rotate(180deg) ;
+}

@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#flix
+{
+    height: 100vh;
+    background-color: #121313;
+    background:no-repeat ;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}  
+#flix
+{
+    background-image: radial-gradient(rgba(0, 0, 0, 0.63),rgba(0, 0, 0, 0.637)) , url(https://assets.nflxext.com/ffe/siteui/vlv3/d049a3bd-40ee-411b-9f16-d1def798d43b/d6aeb5a9-b14c-42d4-999e-c2f0d6c60f04/IN-en-20230313-popsignuptwoweeks-perspective_alpha_website_medium.jpg) ;
+    backdrop-filter:unset ;
+
+}
+span
+{
+      margin: 0px 0px 0px 81px;
+    padding:0px 0px 0px 60px;
+    font-size: 4rem;
+}
+.nam
+{
+  
+    color: red;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue';
+    font-size: 3rem ;
+    font-style:bold;
+}  
+select
+{
+    margin: 0px 0px 205px 680px;
+    padding:6px 20px;
+    background-color: #121313;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    font-size: large;
+}
+a
+{
+    margin: 10px;
+    padding: 7px 18px;
+    background-color: #E50914;
+    color: white;
+    text-decoration: none;
+    border: 0;
+    border-radius: 5px;
+    font-size: 1rem ;
+    text-transform: capitalize ;
+    font-family: Arial;
+}
+.white
+{
+    margin: 24px 0 0 0;
+    color: white;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif ;
+    text-transform:initial;
+}
+h2
+{
+    
+    font-size: 3rem;
+    
+}
+#col,#col1
+{
+    font-size: 1.5rem;
+}
+#col1
+{
+    font-size: 1.2rem;
+}
+#mail
+{
+    margin: 13px 140px 20px 330px;
+    padding: 19px 118px 21px 140px;
+    background-color: #161614;
+    border: 0;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+}    
+#in
+{
+    margin:25px 0px 3px -139px;
+    padding: 13px 55px 18px;
+    background-color: #E50914;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}  
+/* #blink
+{
+    padding: 0px 0px;
+} */
+.line
+{
+    margin: -2px 2px 0px 2px;
+    padding: 4px 1px 3px 25px;
+    background-color: rgba(102, 101, 101, 0.438);
+    border: #121313;
+}
+#ui2
+{
+    margin: 97px 1px 2px 0px;
+    padding: 0px 0px 0px 10px;
+    height: 80vh;
+    background:black;
+    background-size: cover;
+}
+.ui21
+{
+    margin: 30px 53px -110px 118px;
+    padding: 107px 44px 0px 48px;
+    color: white;
+    color: white;
+    text-align: top center;
+    font-family:Arial, Helvetica, sans-serif ;
+    text-transform:initial;
+}
+#ui21_
+{
+    font-size: 1.5rem;
+}
+img
+{
+    margin: -160px 10px 10px 676px; 
+    padding: 0px 10px 3px 16px;
+}
+.col
+{
+    height: 70vh;
+    background-color: black;
+}
+
