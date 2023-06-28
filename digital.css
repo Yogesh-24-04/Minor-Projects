@@ -1,0 +1,295 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container1
+{
+    height: 110vh;
+    background: url(./back.jpeg) no-repeat;
+    background-size: cover;
+    
+    
+
+}
+ol
+{
+    display:flex;
+    list-style-type: none;
+    color: white;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+
+}
+ol li
+{
+    margin: 30px ;
+    padding: 10px;
+    font-family: sans-serif;
+}
+#left
+{
+    font-style: italic;
+    text-transform: capitalize;
+    font-size: 2.2rem;
+}
+#right
+{
+    position: absolute;
+    left: 75%;
+}
+#right1
+{
+    position: absolute;
+    left: 85%;
+}
+h1
+{
+    height: 120px;
+    width: 120px;
+    border: 5px solid white;
+    border-radius: 50%;
+    position: absolute;
+    left: 4%;
+    top: 22%;
+}
+#photo1
+{
+    position: absolute;
+    left: 60%;
+    top: 30%;
+}
+#ui1
+{
+    color: white;
+    font-size: 4rem;
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    left: 4%;
+    top: 45%;
+}
+a
+{
+    text-decoration: none;
+    border: 0px solid ;
+    background-color: white;
+    color: red;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    margin: 10px ;
+    padding: 30px 85px;
+    font-family: 'lato',san-serif;
+    transition: background-color 1s ;
+}
+a:hover
+{
+    background-color: red;
+    color: white;
+   
+}
+section
+{
+    height: 80vh;
+    background-color: white;
+
+}
+img
+{
+    margin: 35px;
+    padding: 2px;
+}
+
+#righttext
+{
+    position: absolute;
+    top: 120%;
+    left: 45%;
+    font-size: 3rem;
+    font-family: sans-serif;
+    
+}
+#text
+{   
+    
+    position: absolute;
+    top: 140%;
+    left: 45%;
+    color: black;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+#anchor
+{
+    margin: 5px ;
+    padding: 15px 35px;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    position: absolute;
+    top: 135%;
+    left: -0.5%;
+    transition: background-color 1s;
+}
+#anchor:hover
+{
+    background-color: red;
+}
+#container3
+{
+    height: 82vh;
+    background-color: black;
+}
+h3{
+    color: white;
+    font-size: 3rem;
+    font-family: 'lato',sans-serif;
+    position: absolute;
+    left: 3%;
+    top: 200%;
+}
+#ui3
+{
+    position: absolute;
+    right: 5%;
+    top: 198%;
+}
+article
+{
+    margin: 10px 0px;
+    color: white;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 3%;
+    top: 225%;
+    line-height: 1.5;
+}
+#container4
+{
+    height: 150vh;
+    background-color: white;
+
+}
+h4
+{
+    margin:30px;
+    font-size: 3rem;
+    font-family: 'lato',sans-serif;
+    text-align: center;
+
+}
+#center
+{
+    margin: 0px 50px ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    text-align: center;
+    line-height: 1.5;
+}
+#ui4
+{
+
+    position: absolute;
+    top: 300%;
+    margin: 20px;
+    padding: 20px;
+}
+/* #pic1
+{
+    position: absolute;
+    left: 200%;
+    top: 200% ;
+} */
+#pic2
+{
+   position: absolute;
+   left:105%;
+   top: 5.2%; 
+}
+#pic3
+{
+    position: absolute;
+    left: 3%;
+    top: 103% ;
+}
+#pic4
+{
+    position: absolute;
+    left: 105%;
+    top: 103% ;
+}
+#container5
+{
+    height: 80vh;
+    background-color: black;
+}
+h5{
+    font-size: 4rem;
+    font-family: 'lato',sans-serif;
+    color: #b3b3b3;
+    position: absolute;
+    top: 440%;
+    left: 7%;
+}
+#ui5
+{
+    color: white;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 485% ;
+    left: 7%;
+    line-height: 1.5;
+}
+.last
+{
+    margin: 0px 400px;
+    padding: 30px 70px;
+    border: 1px solid;
+    background-color: white;
+    font-size: 3rem;
+    text-decoration: none;
+    color: rgba(235, 42, 74, 0.897);
+    position: absolute;
+    top: 440%;
+    left: 20%;
+    line-height: 1;
+}
+i
+{
+    font-size: 1.9rem;
+    position: absolute;
+    left: 6%;
+    top: 19%;
+    color: black;
+}
+#mail
+{
+    font-size: 1.8rem;
+    position: absolute;
+    left: 6%;
+    top: 70%;
+}
+#foot
+{
+    background-color: #e70139;
+    color: white;
+   text-align: center;
+    padding: 20px;
+    transition: color 1s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+strong
+{
+    transition: color 1s;
+    font-weight: lighter;
+}
+strong:hover
+{
+    color: black;
+}
